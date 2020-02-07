@@ -4,7 +4,7 @@ set -e
 source $(dirname $0)/00-init-env.sh
 
 cd "$JHI_FOLDER_APP"
-jhipster import-jdl *.jdl --no-insight
+jhipster import-jdl *.jh --no-insight
 
 #-------------------------------------------------------------------------------
 # Check folder where the app is generated
