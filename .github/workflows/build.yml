@@ -82,6 +82,8 @@ jobs:
             #----------------------------------------------------------------------
             - name: 'GENERATION: install JHipster'
               run: $JHI_SCRIPTS/10-install-generator-with-vuejs-kotlin.sh
+            - name: 'GENERATION: copy jdl'
+              run: $JHI_SCRIPTS/11-generate-entities.sh
             - name: 'GENERATION: project'
               run: $JHI_SCRIPTS/12-generate-project.sh
             - name: 'GENERATION: import-jdl'
