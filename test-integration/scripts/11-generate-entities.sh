@@ -28,9 +28,7 @@ if [[ $JHI_REPO != "" ]]; then
     prepareFolder
 fi
 
-if [[ "$JHI_ENTITY" == "21points" || "$JHI_ENTITY" == "blog" ]]; then
-    moveEntity $JHI_ENTITY
-fi
+moveEntity $JHI_ENTITY
 
 #-------------------------------------------------------------------------------
 # Copy entities json
