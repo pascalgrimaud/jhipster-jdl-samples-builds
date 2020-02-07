@@ -45,8 +45,7 @@ jobs:
                 node_version: [12.14.0]
                 os: [ubuntu-latest]
                 app-type:
-                    - ngx-java-mysql
-
+                    - vuejs-kotlin-mysql
                 include:
                     - app-type: vuejs-kotlin-mysql
                       entity: 21points
