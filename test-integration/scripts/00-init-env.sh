@@ -17,7 +17,7 @@ JHI_REPO=$(init_var "$BUILD_REPOSITORY_URI" "$TRAVIS_REPO_SLUG")
 JHI_CLONED=$(init_var "$BUILD_REPOSITORY_LOCALPATH" "$TRAVIS_BUILD_DIR")
 
 # folder where the generator-jhipster is cloned
-JHI_HOME="$HOME"/generator-jhipster
+JHI_HOME="$GITHUB_WORKSPACE"
 
 # folder for test-integration
 JHI_INTEG="$JHI_HOME"/test-integration
