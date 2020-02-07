@@ -82,7 +82,7 @@ jobs:
             # Install JHipster and generate project+entities
             #----------------------------------------------------------------------
             - name: 'GENERATION: install JHipster'
-              run: ./test-integration/scripts/10-install-generator-with-vuejs-kotlin.sh
+              run: $JHI_SCRIPTS/10-install-generator-with-vuejs-kotlin.sh
             - name: 'GENERATION: project'
               run: $JHI_SCRIPTS/12-generate-project.sh
             - name: 'GENERATION: jhipster info'
