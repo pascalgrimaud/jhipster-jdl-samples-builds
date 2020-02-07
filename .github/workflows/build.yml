@@ -48,7 +48,7 @@ jobs:
                     - ngx-java-mysql
 
                 include:
-                    - app-type: ngx-java-mysql
+                    - app-type: vuejs-kotlin-mysql
                       entity: 21points
                       profile: prod
                       war: 0

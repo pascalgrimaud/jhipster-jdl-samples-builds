@@ -33,7 +33,7 @@
     "creationTimestamp": 1581100027797,
     "applicationType": "monolith",
     "baseName": "jhipster",
-    "testFrameworks": [],
+    "testFrameworks": [ "protractor" ],
     "jhiPrefix": "jhi",
     "entitySuffix": "",
     "dtoSuffix": "DTO",
