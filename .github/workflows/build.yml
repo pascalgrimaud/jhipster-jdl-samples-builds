@@ -45,8 +45,14 @@ jobs:
                 node_version: [12.14.0]
                 os: [ubuntu-latest]
                 app-type:
+                    - ngx-kotlin-mysql
                     - vuejs-kotlin-mysql
                 include:
+                    - app-type: ngx-kotlin-mysql
+                      entity: 21points
+                      profile: prod
+                      war: 0
+                      protractor: 1
                     - app-type: vuejs-kotlin-mysql
                       entity: 21points
                       profile: prod
